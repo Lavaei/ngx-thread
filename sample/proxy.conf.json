@@ -1,9 +1,0 @@
-{
-  "/api": {
-	"target": "http://localhost/Performance/api/public",
-	"secure": false,
-	"pathRewrite": {
-	  "^/api": ""
-	}
-  }
-}
