@@ -21,7 +21,7 @@ to use `ngx-thread` you should import `ThreadModule` in to the your module.
     
     import {AppRoutingModule} from './app-routing.module';
     import {AppComponent} from './app.component';
-    import {ThreadModule} from "../../projects/ngx-thread/src/lib/ThreadModule";
+    import {ThreadModule} from "ngx-thread";
     
     @NgModule({
     	declarations: [
