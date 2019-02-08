@@ -1,8 +1,8 @@
 import {Component} from '@angular/core';
 import {WebWorkerService} from 'ngx-web-worker';
-import {ThreadService} from "ngx-thread";
+import {ThreadService, ThreadMessageContract} from "ngx-thread";
 
-declare function postMessage(message: any): void;
+declare function postMessage(message: ThreadMessageContract): void;
 
 @Component({
 	selector:    'app-root',
