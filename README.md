@@ -4,6 +4,10 @@ The `ngx-thread` package implements multi-threading in Angular using [Web Worker
 You can find full example in the sample directory of the source, but we want to teach you how to use `ngx-thread` step
  by step.
 
+#### Installation
+
+	npm i ngx-thread
+
 #### Requirements
 
 | package         | version |
