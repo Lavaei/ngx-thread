@@ -132,4 +132,12 @@ Now you can use it:
         return result;
     }
 
+
+#### Limitations
+
+1- You can`t access DOM
+
+2- You can`t access other variables and functions
+
+
 [Web Worker]: https://www.w3schools.com/html/html5_webworkers.asp
