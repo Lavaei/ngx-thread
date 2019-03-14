@@ -53,7 +53,7 @@ Now you can inject `ThreadService` in the component that you want to use package
 After injecting `ThreadService`, you need a function to run it in the another thread. 
 for example we write following heavy function:
 
-	sumInMainThread(input:number)
+	sumInOtherThread(input:number)
     {
         console.log(`The input is ${input}`);
         
@@ -108,7 +108,7 @@ But before use it, you should declare it above of your component declaration:
 	
 Now you can use it:
 
-	sumInMainThread(input:number)
+	sumInOtherThread(input:number)
     {
         console.log(`The input is ${input}`)
 
